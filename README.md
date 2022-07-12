@@ -1,3 +1,5 @@
+# PayPal Pay
+
 * I have successfully implemented Paypal Payment Gateway using WebView. I have used some of Paypal’s available APIs for Payment which are officially available for integration in websites.
 
 Just add this git package in your pubspec.yaml
@@ -59,9 +61,9 @@ Get.to(UsePaypal(
   ));
   ```
 
-Here you can get `clientId` and `secretKey` from [paypal developer console](“https://developer.paypal.com/“) that is unique keys for your project.
+Here you can get `clientId` and `secretKey` from [paypal developer console](https://developer.paypal.com/) that is unique keys for your project.
 
-Note : If you don't have Paypal account yet, then create a new from this link [paypal account creation]("https://developer.paypal.com/developer/accounts/create")
+Note : If you don't have Paypal account yet, then create a new from this link [paypal account creation](https://developer.paypal.com/developer/accounts/create)
 
 ReturnUrl & CancelUrl is required because we get payment using web view and that redirect success or failed that particular URL.
 
